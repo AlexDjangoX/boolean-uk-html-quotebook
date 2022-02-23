@@ -33,14 +33,6 @@ h1 {
   letter-spacing: 0.5rem;
 }
 
-footer {
-  border: 0;
-  padding: 2rem 12rem;
-
-  background-color: rgba(64, 153, 175, 0.692);
-  color: rgb(234, 244, 253);
-}
-
 .side-header {
   writing-mode: vertical-lr;
 }
@@ -53,4 +45,35 @@ blockquote::first-letter {
   color: rgb(0, 38, 255);
   font-weight: bold;
   font-size: 6rem;
+}
+
+.quote {
+  padding: 1rem 4rem;
+  border: 1px solid rgb(49, 49, 49);
+  border-radius: 12px;
+  box-shadow: 4px 4px 0 rgb(133, 133, 133);
+}
+
+.left-margin {
+  margin-left: 3.4rem;
+}
+
+.left-margin * > p {
+  padding: 2rem 0;
+  font-size: 1.4rem;
+}
+
+.quote:nth-child(odd) {
+  background-color: rgba(53, 231, 127, 0.226);
+}
+
+/* .quote:nth-child(even) {
+  background-color: rgba(134, 223, 250, 0.671);
+} */
+footer {
+  border: 0;
+  padding: 2rem 12rem;
+
+  background-color: rgba(64, 153, 175, 0.692);
+  color: rgb(234, 244, 253);
 }
